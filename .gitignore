@@ -1,0 +1,20 @@
+# 密钥：只填在 backend/.env，永不进仓库
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# 前端
+node_modules/
+.next/
+*.tsbuildinfo
+
+# 本地数据与运行时产物
+data/
+docs/
+.DS_Store
